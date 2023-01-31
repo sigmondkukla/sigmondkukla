@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Sigmond Kukla</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+  <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+  <div class="page-container mx-auto scene" id="main">
+    <header class="header text-center scene_element scene_element--fadeindown">
+      <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+      <p class="primary-color"><i>VR Game Developer</i></p>
+    </header>
+
+    <section class="section">
+      <nav class="nav scene_element scene_element--fadeinright">
+        <ul>
+          <li>
+            <a href="index.html"><span class="nav-deco"></span>About</a>
+          </li>
+          <li>
+            <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+          </li>
+          <li>
+            <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="content-container scene_element scene_element--fadeinup">
+        <figure class="mb-0">
+          <img src="img/projects/dashboard-actions-google/banner.webp" alt="Dashboard Actions Banner Art Image"
+            class="img-fluid img" />
+        </figure>
+        <div class="content">
+          <h2 class="page-title">
+            Grades Dashboard Google Action
+          </h2>
+          <h3>Important update:</h3>
+          <p>
+            Google announced on June 13, 2022 that Conversational Actions, the platform that Grades Dashboard is built
+            upon, will be sunset and no longer available after June 12, 2023. In the meantime, Grades Dashboard will
+            still function
+            but, but my development is be halted due to removal of conversation-building tools. While this is
+            unfortunate for
+            Grades Dashboard, there are alternative paths that this may take in the future, as Google is transitioning
+            this functionality to Android applications. However, as you will no longer be able to interact with Grades
+            Dashboard through
+            Google Home (the original intention of this project), it is likey that I will focus my efforts on other
+            projects.
+            <br>
+            Thank you for checking out Grades Dashboard, and I hope you come back to see what I'm working on next!
+          </p>
+          <p class="mb-4">
+            This Action allows you to ask Google Assistant about your grades. It retrieves grade information from
+            Powerschool SIS and displays it as part of a conversation with Google Assistant.
+          </p>
+          <p>
+            The Action's webhook endpoint is now hosted on my own server. A configuration webpage, available at
+            <a href="https://dashboard-api-web.sigmondkukla.tk/"
+              target="_blank">https://dashboard-api-web.sigmondkukla.tk/</a> makes
+            POST requests to separate routes on my endpoint that control user data, such as creating, editing, and
+            deleting user information.
+          </p>
+          <p>
+            Through building and deploying this, I learned:
+          <ul>
+            <li>Using Google Actions Console</li>
+            <li>More Python skills:
+              <ul>
+                <li>Creating a Flask application</li>
+                <li>Parsing JSON</li>
+                <li>Using Postman to test requests</li>
+                <li>Creating a SQLite database</li>
+                <li>Using a Gunicorn server</li>
+              </ul>
+            </li>
+            <li>Server hosting:
+              <ul>
+                <li>Setting up a personal cloud server</li>
+                <li>Multipass containers & network bridging</li>
+                <li>Configuring Ubuntu Server</li>
+                <li>Using Cloudflare DNS</li>
+                <li>Reverse proxy based on hostname with nginx</li>
+                <li>Getting SSL certificates from Let's Encrypt</li>
+              </ul>
+            </li>
+            <li>Web app creation:
+              <ul>
+                <li>Creating a persistant login system using Flask</li>
+                <li>Using Bootstrap for quickly designing multiple pages</li>
+                <li>Displaying flash messages as feedback for user's actions</li>
+                <li>Sharing database between web app and endpoint</li>
+              </ul>
+            </li>
+          </ul>
+          </p>
+          <p>
+            Take a look at the code on GitHub:
+          <ul>
+            <li>Webhook endpoint: <a href="https://github.com/PicoPlanetDev/dashboard-api"
+                target="_blank">https://github.com/PicoPlanetDev/dashboard-api</a></li>
+            <li>Web interface: <a href="https://github.com/PicoPlanetDev/dashboard-api-web"
+                target="_blank">https://github.com/PicoPlanetDev/dashboard-api-web</a>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script>
+        Sigmond Kukla
+      </span>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Sigmond Kukla</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+  <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+  <div class="page-container mx-auto scene" id="main">
+    <header class="header text-center scene_element scene_element--fadeindown">
+      <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+      <p class="primary-color"><i>VR Game Developer</i></p>
+    </header>
+
+    <section class="section">
+      <nav class="nav scene_element scene_element--fadeinright">
+        <ul>
+          <li>
+            <a href="index.html"><span class="nav-deco"></span>About</a>
+          </li>
+          <li>
+            <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+          </li>
+          <li>
+            <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="content-container scene_element scene_element--fadeinup">
+        <figure class="mb-0">
+          <img src="img/projects/target-analysis/banner.webp" alt="Target Analysis Banner Art Image"
+            class="img-fluid img" />
+        </figure>
+        <div class="content">
+          <h2 class="page-title">Target Analysis</h2>
+          <p class="mb-4">
+            Target Analysis is an automated scoring system for smallbore rifle targets.
+            The system can be used to quickly and accurately score a variety of targets
+            without the bias of manual scoring.
+          </p>
+          <p>
+            I used Python and OpenCV to process the images of the targets. A tkinter GUI is used to make
+            the software user-friendly. The GUI is designed to be easy to use and intuitive, with everything nescessary
+            to score a target available on the main page.
+          </p>
+          <p>
+            By building Target Analysis, I have learned:
+          <ul>
+            <li>OpenCV for image processing</li>
+            <li>Detection of features such as circles and holes</li>
+            <li>Advanced tkinter GUI creation</li>
+            <li>Saving data to CSV files</li>
+            <li>Plotting data with Matplotlib</li>
+            <li>OS interaction</li>
+            <li>Building Python with pyinstaller</li>
+          </ul>
+          </p>
+          <p>
+            Get Target Analysis on GitHub:
+            <a href="https://github.com/PicoPlanetDev/Target-Analysis"
+              target="_blank">https://github.com/PicoPlanetDev/Target-Analysis</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script>
+        Sigmond Kukla
+      </span>
+    </footer>
+  </div>
+</body>
+
+</html>

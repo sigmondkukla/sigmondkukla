@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>VR Game Developer</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <div class="mb-0 img-overlay-wrap" style="background-image: url('img/vr-2.webp')">
+                    <div class="img-overlay"></div>
+                    <div class="img-overlay-text text-white p-5">
+                        <h4 class="mb-4">Contact Me</h4>
+                        <p class="small">
+                            Want to get in touch? Send me a message below or write an email directly to
+                            <a href="mailto:sig@sigmondkukla.tk">sig@sigmondkukla.tk</a>. I'll get back to you
+                            as soon as possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="content">
+                    <form action="https://formpost.app/contact@sigmondkukla.tk" method="POST" class="contact-form">
+                        <input type="hidden" name="fp_redirect" value="https://sigmondkukla.tk/contact-thankyou.html">
+                        <div class="form-group">
+                            <input type="text" id="contact_name" name="name"
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                                placeholder="Name" required="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact_email" name="email"
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                                placeholder="Email" required="" />
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="6" id="contact_message" name="message"
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                                placeholder="Message..." required=""></textarea>
+                        </div>
+
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-primary">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

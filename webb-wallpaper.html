@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="page-container mx-auto scene">
+    <div class="page-container mx-auto scene" id="main">
         <header class="header text-center scene_element scene_element--fadeindown">
             <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
             <p class="primary-color"><i>Tech Tinkerer</i></p>
@@ -31,23 +31,43 @@
                     <li>
                         <a href="projects.html"><span class="nav-deco"></span>Projects</a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="contact.html"><span class="nav-deco"></span>Contact</a>
                     </li>
                 </ul>
             </nav>
-
             <div class="content-container scene_element scene_element--fadeinup">
-                <div class="mb-0 img-overlay-wrap" style="background-image: url('img/vr-3.webp')">
-                    <div class="img-overlay"></div>
-                    <div class="img-overlay-text text-white p-5">
-                        <h4 class="mb-4">Thank you!</h4>
-                    </div>
-                </div>
+                <figure class="mb-0">
+                    <img src="img/projects/webb-wallpaper/header.png" alt="Target Analysis Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
                 <div class="content">
-                    <p class="small">
-                        Thanks for reaching out. I'll get back to you as soon as possible.
-                        In the meantime, take a look at my <a href="projects.html">projects</a> page!
+                    <h2 class="page-title">Webb Wallpaper</h2>
+                    <p class="mb-4">
+                        Create properly sized wallpapers from your favorite images captured by the James Webb Space
+                        Telescope.
+                    </p>
+                    <p>
+                        When the James Webb Space Telescope was launched, I was inspired by posts on social media of
+                        cropped images from the telescope for wallpapers. I decided to create a (admittedly barebones)
+                        software to help people create wallpapers from their choice of a JWST image.
+                    </p>
+                    <p>
+                        Webb Wallpaper allows you to select any image scraped from the ESA Webb gallery and crop it to
+                        a custom size for common smartphones or enter your own desktop resolution.
+                    </p>
+                    <p>
+                        By building Webb Wallpaper, I have learned:
+                    <ul>
+                        <li>Pillow for image cropping</li>
+                        <li>Hosting web pages on a home server</li>
+                        <li>Using the Flask framework</li>
+                        <li>Using Jinja templates</li>
+                    </ul>
+                    </p>
+                    <p>
+                        Give Webb Wallpaper a try:
+                        <a href="https://webb-wallpaper.tk" target="_blank">https://webb-wallpaper.tk</a>
                     </p>
                 </div>
             </div>

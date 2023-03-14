@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Tech Tinkerer</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/colony-counter/demo2.png" alt="Target Analysis Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">Colony Counter</h2>
+                    <p class="mb-4">
+                        Colony Counter uses computer vision to detect and count colonies of bacteria on agar plates.
+                    </p>
+                    <p>
+                        When doing a bacterial transformation lab in AP Biology,
+                        I decided that I wanted a tool that could automate the process of counting
+                        colonies to measure transformation efficiency.
+                    </p>
+                    <p>
+                        Colony Counter allows you to upload an image of an agar plate with bacterial
+                        colonies and easily tune detection settings to ensure that all are counted properly.
+                    </p>
+                    <p>
+                        I built this project using Python and OpenCV. The web interface was created using
+                        Streamlit, a Python library for creating data science web apps. Streamlit re-runs your
+                        app whenever you interact with the UI, so you can quickly see the results of your changes.
+                        This was ideal for a quick project like this, and I will certainly use it again the future.
+                    </p>
+                    <p>
+                        <strong>Want to give it a try?</strong> I have self-hosted Colony Counter on my homelab server,
+                        so head to <a href="https://colony-counter.server.sigmondkukla.dev"
+                            target="_blank">https://colony-counter.server.sigmondkukla.dev</a> and see for yourself!
+                    </p>
+                    <p>
+                        By building Colony Counter, I have learned:
+                    <ul>
+                        <li>Streamlit for easy data visualizations</li>
+                        <li>Dockerizing a Python application</li>
+                        <li>Troubleshooting websockets through a reverse proxy</li>
+                        <li>Quickly iterating on a project for school</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

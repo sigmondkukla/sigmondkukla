@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Tech Tinkerer</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/homelab/homepage.png" alt="Target Analysis Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">Homelab</h2>
+                    <p class="mb-4">
+                        Create properly sized wallpapers from your favorite images captured by the James Webb Space
+                        Telescope.
+                    </p>
+                    <p>
+                        When the James Webb Space Telescope was launched, I was inspired by posts on social media of
+                        cropped images from the telescope for wallpapers. I decided to create a (admittedly barebones)
+                        software to help people create wallpapers from their choice of a JWST image.
+                    </p>
+                    <p>
+                        Webb Wallpaper allows you to select any image scraped from the ESA Webb gallery and crop it to
+                        a custom size for common smartphones or enter your own desktop resolution.
+                    </p>
+                    <p>
+                        By building Webb Wallpaper, I have learned:
+                    <ul>
+                        <li>Pillow for image cropping</li>
+                        <li>Hosting web pages on a home server</li>
+                        <li>Using the Flask framework</li>
+                        <li>Using Jinja templates</li>
+                        <li>Setting up CI/CD with Github Actions</li>
+                    </ul>
+                    </p>
+                    <p>
+                        Take a look at the uptime of some of the services I host: <a
+                            href="https://uptime-kuma.server.sigmondkukla.dev/status/webapps">https://uptime-kuma.server.sigmondkukla.dev/status/webapps</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

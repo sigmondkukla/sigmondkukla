@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Tech Tinkerer</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/whiteboard-recorder/cover.png" alt="Whiteboard Recorder Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">Whiteboard Recorder</h2>
+                    <p class="mb-4">
+                        Whiteboard Recorder captures high-resolution video of multiple whiteboards while still allowing
+                        for flexible camera
+                        placement. It provides a non-intrusive solution for archiving lessons and lectures to aid
+                        students that missed class.
+                    </p>
+                    <p>
+                        Whiteboard Recorder saves video from multiple cameras, then automatically adjusts the
+                        perspective of
+                        the videos to make the whiteboards appear flat (parallel to the view plane of the camera).
+                        It then combines these into a single video that can be stored or shared.
+                    </p>
+                    <p>
+                        <strong>Want to give it a try?</strong> Here's the GitHub repository:
+                        <a href="https://github.com/PicoPlanetDev/whiteboard-recorder"
+                            target="_blank">https://github.com/PicoPlanetDev/whiteboard-recorder</a>
+                    </p>
+                    <p>
+                        By building Whiteboard Recorder, I have learned:
+                    <ul>
+                        <li>Image perspective warp with OpenCV</li>
+                        <li>FFmpeg commands</li>
+                        <li>Python multithreading</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

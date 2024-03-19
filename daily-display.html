@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Tech Tinkerer</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/daily-display/banner.jpg" alt="Daily Display Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">Daily Display</h2>
+                    <p class="mb-4">
+                        Daily Display comprises of a combination of a software-controlled pill dispensing system
+                        and a computer monitor showing a list of tasks and events for each day, to help someone
+                        living with Alzheimer's disease or dementia through their daily routine.
+                    </p>
+                    <p>
+                        The mechanical pill dispensing system uses a single micro servo motor for each pill to
+                        dispense them into a tray. To customize a dispenser for a new type of pill, only two
+                        new parts need to be 3D printed and press-fit into place. For reliability, each dispenser
+                        is fitted with an IR reflectance sensor to detect if a pill has been dispensed, and when
+                        it has been taken by the user.
+                    </p>
+                    <p>
+                        The calendar display parses events from a Google Calendar feed, displaying them in an
+                        easy-to-read column format and highlighting certain important tasks. This display is
+                        augmented by a mini thermal reciept printer, which creates a paper copy of the day's
+                        calendar for the user to carry with them.
+                    </p>
+                    <p>
+                        <strong>Know someone who this could help?</strong> Here's the GitHub repository:
+                        <a href="https://github.com/PicoPlanetDev/daily-display"
+                            target="_blank">https://github.com/PicoPlanetDev/daily-display</a>
+                    </p>
+                    <p>
+                        By building Daily Display, I have learned:
+                    <ul>
+                        <li>Complex frontend web interface and backend integration</li>
+                        <li>Building and publishing Python libraries</li>
+                        <li>Parsing an ICal calendar feed</li>
+                        <li>More about designing assemblies in CAD software</li>
+                        <li>Thorough testing and validation of functionality</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

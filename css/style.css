@@ -60,6 +60,7 @@ p {
 .page-container {
 	max-width: 1000px;
 	width: 50%;
+	min-width: 500px;
 }
 
 .section {

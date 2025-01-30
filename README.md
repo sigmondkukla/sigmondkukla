@@ -1,4 +1,7 @@
-# sigmondkukla
-Personal portfolio website
+### Hey, I'm Sigmond Kukla 👋
 
-See it at https://sigmondkukla.dev
+Electrical, Computer, and Software Engineering student at Clarkson University
+
+Small Business Owner of PicoPlanet Developing: [picoplanetdev.tk](https://picoplanetdev.tk)
+
+Personal portfolio: [sigmondkukla.dev](https://sigmondkukla.dev)

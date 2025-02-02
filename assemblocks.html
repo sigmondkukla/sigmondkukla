@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Tech Tinkerer</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/assemblocks/banner.png" alt="AssemBLOCKS Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">AssemBLOCKS</h2>
+                    <p class="mb-4">
+                        AssemBLOCKS is a teaching tool for assembly language programming that leverages the hands-on,
+                        interactive nature of virtual and augmented reality to introduce students to the fundamentals of
+                        computer engineering and low-level programming.
+                    </p>
+                    <p>
+                        I presented AssemBLOCKS at the Faculty Seminar on “Virtual Reality in Teaching and Research,”
+                        hosted by Clarkson University in collaboration with the Associated Colleges of the St. Lawrence
+                        Valley on December 13, 2024.<br>
+                        At the seminar, I also had the chance to demo AssemBLOCKS for faculty and students, showcasing
+                        its potential as part of a high school curriculum, which I am excited to continue developing in
+                        the future to further experiment with VR for education.
+                    </p>
+                    <p>
+                        Built using the Unity game engine, I chose to emulate in C# the complete 6502 microprocessor
+                        used in computers such as the Commodore 64 and Apple II. AssemBLOCKS simplifies the daunting
+                        cross-disciplinary complexity
+                        of building a microcontroller by representing data lines as intuitive cable connections between
+                        components,
+                        allowing users to build a deeper understanding of low-level programming, memory management and
+                        communication protocols
+                        through a hands-on block diagram of the computer.
+                    </p>
+                    <p>
+                        The simplicity of connecting computer components allows students to go in-depth in programming
+                        the computer, and I
+                        included both an opcode-based machine code editor and an assembly language editor that put the
+                        best features of block
+                        programming to good use in making assembly accessible to a wider audience.
+                    </p>
+                    <p>
+                        <strong>Follow development progress here:</strong>
+                        <a href="https://www.youtube.com/playlist?list=PLkaQw-J0LlJHFG50lwuxm-XsOM9d5I1QY"
+                            target="_blank">https://www.youtube.com/playlist?list=PLkaQw-J0LlJHFG50lwuxm-XsOM9d5I1QY</a>
+                    </p>
+                    <p>
+                        By building AssemBLOCKS, I have learned:
+                    <ul>
+                        <li>Advanced Meta Quest SDK features such as:</li>
+                        <ul>
+                            <li>Augmented reality with Passthrough</li>
+                            <li>Room tracking with the Scene API</li>
+                            <li>Natural hand and controller interactions with the Interaction SDK</li>
+                        </ul>
+                        <li>Building a performant microprocessor emulator</li>
+                        <li>Writing modular C# code with extensibility in mind</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

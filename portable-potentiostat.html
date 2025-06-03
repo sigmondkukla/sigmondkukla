@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Entrepreneur, Researcher, and Problem-Solver</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/portable-potentiostat/banner.jpg"
+                        alt="Portable Potentiostat Banner Art Image" class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">Portable Potentiostat</h2>
+                    <p class="mb-4">
+                        As part of my research under Professor Masudul Imtiaz at Clarkson University, I developed a
+                        low-cost potentiostat electrochemical sensor system, combining hardware, firmware, and mobile
+                        application development to create an accessible tool for elechemical analysis with applications
+                        including heavy metal, sweat, and PFAS sensing.
+                    </p>
+                    <p>
+                        The embedded system is built around a custom PCB supporting an EFR32MG12 Bluetooth
+                        microcontroller, two LMP91000 potentiostat modules, a lithium battery connector, and a voltage
+                        monitor. The hardware also features a 16-bit resolution Digital-to-Analog Converter
+                        (DAC) for voltage input to the potentiostats. The firmware supports Bluetooth control,
+                        enabling easily configurable automated experiments like Chronoamperometry, Cyclic Voltammetry,
+                        Square Wave Voltammetry, as well as temperature readings. Additional experiments may easily be
+                        defined as a voltage generation function in the firmware.
+                    </p>
+                    <p>
+                        To interface with the potentiostat, I created a React Native mobile application for Android
+                        devices. This application abstracts the BLE GATT interface, allowing users to select and
+                        configure a desired experiment, initiate the test, and export results to the smartphone for
+                        further analysis in software such as MATLAB or Excel.
+                    </p>
+                    <p>
+                        In developing this sensor system, I have refined my skills in:
+                    <ul>
+                        <li>Embedded system design including custom PCBs</li>
+                        <li>Firmware development for Silicon Labs MCUs</li>
+                        <li>React Native mobile application frontend development</li>
+                        <li>Performing electrochemical measurements and data analysis</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

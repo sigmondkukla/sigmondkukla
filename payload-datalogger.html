@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sigmond Kukla</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+</head>
+
+<body>
+    <div class="page-container mx-auto scene" id="main">
+        <header class="header text-center scene_element scene_element--fadeindown">
+            <h1 class="title text-uppercase">SIGMOND KUKLA</h1>
+            <p class="primary-color"><i>Entrepreneur, Researcher, and Problem-Solver</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav scene_element scene_element--fadeinright">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><span class="nav-deco"></span>Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container scene_element scene_element--fadeinup">
+                <figure class="mb-0">
+                    <img src="img/projects/payload-datalogger/banner.jpg" alt="CUR Payload Datalogger Banner Art Image"
+                        class="img-fluid img" />
+                </figure>
+                <div class="content">
+                    <h2 class="page-title">CUR Payload Datalogger</h2>
+                    <p class="mb-4">
+                        To support our Payload subteam's goal of characterizing the performance of various insulation
+                        options for cryogenic
+                        cargo, I planned, designed, and produced a data logging system that interfaces with four
+                        thermocouples integrated within
+                        the payload, recording this data throughout the rocket's integration, preparation for launch,
+                        flight, and recovery. The
+                        data collected informs future decisions the team may make when designing a hybrid or liquid
+                        rocket that requires
+                        cryogenic propellant.
+                        As the payload is not readily accessible from outside the rocket, an ESP32-C3 microcontroller
+                        with wireless capability
+                        was used to allow for remote control via a web interface.
+                    </p>
+                    <p>
+                        In developing this system, I have refined my skills in:
+                    <ul>
+                        <li>Custom PCB design</li>
+                        <li>Firmware development for embedded systems</li>
+                        <li>Efficiently storing sensor data to a flash memory</li>
+                        <li>Creating a lightweight, mobile-friendly web interface for remote control and data
+                            visualization</li>
+                    </ul>
+                    </p>
+                    <h5>PCB Design</h5>
+                    <kicanvas-embed controls="full">
+                        <kicanvas-source
+                            src="https://raw.githubusercontent.com/CU-Rocketry/payload-datalogger/refs/heads/master/pcb/payload-datalogger.kicad_pro"></kicanvas-source>
+                        <kicanvas-source
+                            src="https://raw.githubusercontent.com/CU-Rocketry/payload-datalogger/refs/heads/master/pcb/payload-datalogger.kicad_sch"></kicanvas-source>
+                        <kicanvas-source
+                            src="https://raw.githubusercontent.com/CU-Rocketry/payload-datalogger/refs/heads/master/pcb/thermocouple.kicad_sch"></kicanvas-source>
+                        <kicanvas-source
+                            src="https://raw.githubusercontent.com/CU-Rocketry/payload-datalogger/refs/heads/master/pcb/payload-datalogger.kicad_pcb"></kicanvas-source>
+                    </kicanvas-embed>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Sigmond Kukla
+            </span>
+        </footer>
+    </div>
+    <script type="module" src="/kicanvas.js"></script>
+</body>
+
+</html>
